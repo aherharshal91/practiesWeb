@@ -22,7 +22,7 @@ public class program2 {
        // driver.findElement(By.className("gLFyf")).sendKeys(Keys.ENTER);
         Thread.sleep(2000);
         List<WebElement> list =driver.findElements(By.xpath("//ul[@role='listbox']//li//span"));
-       // List<WebElement> list =driver.findElements(By.xpath("//ul[@role='listbox']//li//span"));
+
         for(WebElement name:list)
         {
             System.out.println(name.getText());
